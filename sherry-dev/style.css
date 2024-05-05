@@ -13,7 +13,7 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 #nav{
     height: 100px;
@@ -28,12 +28,90 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
-    
 }
-#nav h3{
+#nav i,h3{
     font-size: 16px;
-    border: 2px solid #000;
+    border: 1.5px solid #000;
+    font-weight: 500;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+#salmon-btn{
+    background-color: salmon;
+    color: whitesmoke;
+    border: none;
+}
+#main > h1{
+    color:white;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+
+}
+img{
+    height: 500px;
+    width: 370px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img0{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#bottom-text-left{
+    font-weight: 300;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+}
+#circle{
+    border-radius: 100%;
+    background-color: salmon;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 94%;
+    left:5%;
+}
+#bottom-text-right{
+    position: absolute;
+    top: 95%;
+    right: 5%;
+    font-weight: 300;
+}
+#bottom-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 92%;
+    right: 5%;
+
 }
