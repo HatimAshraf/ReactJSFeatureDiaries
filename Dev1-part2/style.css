@@ -2,10 +2,106 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html,body{
     height: 100%;
     width: 100%;
     
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: salmon; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center{
+    height: 600px;
+    width:400px;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 15px;
+    position: relative;
+}
+#circle-parent::-webkit-scrollbar{
+    display: none;
+}
+#circle-parent{
+    height:25%;
+    width: 100%;
+    border-bottom: 1px solid #111;
+    white-space: nowrap;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px dashed #717171;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px ;
+}
+#circle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#profile-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+#nav-left{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+#nav-left img{
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#nav-left h4{
+    font-size: 12px;
+    font-weight: 300;
+}
+#profile-image{
+    height: 50%;
+    width: 100%;
+}
+
+#profile-image img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
+#bottom-nav{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.ri-heart-fill{
+    color: red;
+}
+    
+
+h6{
+    padding: 0 5px;
+    font-size: 10px;
+    font-weight: 300;
 }
