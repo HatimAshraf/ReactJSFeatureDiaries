@@ -1,38 +1,23 @@
-module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
-    fontFamily: {
-      primary: 'Orbitron, sans-serif',
-      secondary: 'Inter, sans-serif',
-    },
-    container: {
-      padding: {
-        DEFAULT: '1.5rem',
-        lg: '3rem',
-      },
-    },
-    screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-    },
-
     extend: {
+      fontFamily: {
+        parisienne: ["Parisienne", "cursive"],
+      },
       colors: {
-        body: '#010208',
-        white: '#fff',
-        pink: 'pink',
-        transparent: 'transparent',
+        primary: "#00C2FF",
+        secondary: "#DD0BFF",
+        dark: "#111111",
       },
-      boxShadow: {
-        primary: '0px 4px 40px rgba(0, 0, 0, 0.03)',
-      },
-      backgroundImage: {
-        radialBgCircle: "url('/src/assets/img/radial-bg.svg')",
-        videoBg: "url('/src/assets/img/video-bg.png')",
-        circle: "url('/src/assets/img/circle.png')",
-        explore: "url('/src/assets/img/explore.png')",
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "3rem",
+        },
       },
     },
   },
