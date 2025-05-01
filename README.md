@@ -1,1 +1,1 @@
-### Reactjs based projects for prep
+### React.js based projects for pre
