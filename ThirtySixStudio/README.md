@@ -42,12 +42,3 @@ ThirtySix Studio aims to blend modern design principles with seamless animations
 
 Ensure you have **Node.js** and **npm** installed.
 
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/asynchronousJavascriptor/thirtysixstudio.git
-   cd thirtysixstudio
-   npm install
-   npm run dev
-   server starts on localhost:5173
