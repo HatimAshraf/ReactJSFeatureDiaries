@@ -34,11 +34,5 @@ ThirtySix Studio aims to blend modern design principles with seamless animations
 - **Minimalistic UI:** Clean, focused design with intuitive navigation.
 - **Reusable Components:** Built with reusable and customizable React components.
 
----
 
-## Getting Started
-
-### Prerequisites
-
-Ensure you have **Node.js** and **npm** installed.
 
