@@ -20,7 +20,7 @@ Welcome to **ThirtySix Studio**, a modern, minimalistic agency portfolio built w
 
 ThirtySix Studio aims to blend modern design principles with seamless animations to provide an exceptional user experience. Leveraging **React** for the front-end, **Tailwind CSS** for styling, and **GSAP** for smooth animations, this project is a great base for building a high-quality portfolio website.
 
-## Technologies Used
+## Technologies Used:
 
 - **React** - JavaScript library for building user interfaces
 - **Tailwind CSS** - Utility-first CSS framework
