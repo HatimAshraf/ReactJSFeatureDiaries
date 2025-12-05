@@ -1,1 +1,1 @@
-### React.js based projects 
+### React.js based projects for beginners
